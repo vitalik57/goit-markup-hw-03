@@ -1,3 +1,6 @@
+html {
+  box-sizing: border-box;
+}
 body {
   text-decoration: none;
   list-style: none;
@@ -13,18 +16,13 @@ a {
   text-decoration: none;
 }
 .dragon {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 94px;
-
   list-style: none;
   display: flex;
   align-self: center;
-  text-align: center;
 }
 .bad {
   padding-top: 60px;
-  margin-left: 215px;
+  margin: 0;
   color: white;
   font-family: Raleway, sans-serif;
   font-weight: bold;
@@ -59,13 +57,13 @@ a {
   text-transform: uppercase;
 }
 .link-teitle {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 
   color: #2196f3;
-  margin-right: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -74,6 +72,7 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  display: flex;
 }
 .bubluk {
   font-weight: bold;
@@ -102,6 +101,7 @@ a {
   display: block;
 }
 .number {
+  margin-right: 50px;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -129,7 +129,6 @@ a {
 
   color: #ffffff;
   margin-top: 20px;
-  margin-left: 215px;
 }
 
 .flix {
@@ -165,7 +164,6 @@ a {
   color: #757575;
 }
 .cotent {
-  margin-left: 215px;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
@@ -190,6 +188,12 @@ span {
 
   color: #212121;
 }
+.portfolio {
+  margin-right: 50px;
+}
+.portfolio:last-child 
+  margin-right: 0px;
+}
 .site-nav {
   display: flex;
   list-style: none;
@@ -202,13 +206,13 @@ span {
   display: flex;
 }
 .link-text {
+  display: flex;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
 
   color: #212121;
-  margin-right: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -249,13 +253,7 @@ footer {
   margin-right: 0px;
 }
 .two {
-  padding: 0;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  margin-right: 215px;
-  margin-left: 215px;
   display: flex;
-  flex-wrap: wrap;
 }
 .monky {
   margin-top: 10px;
@@ -266,8 +264,10 @@ footer {
 
 .tipe {
   font-weight: bold;
+
   line-height: 30px;
 
+  border: none;
   display: inline-block;
   padding: 10px 32px;
   text-align: center;
