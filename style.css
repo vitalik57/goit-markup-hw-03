@@ -8,10 +8,13 @@ body {
 
   margin: 0;
 }
-
+.title {
+  margin-left: auto;
+}
 a {
   text-decoration: none;
 }
+
 .dragon {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -20,11 +23,10 @@ a {
   list-style: none;
   display: flex;
   align-self: center;
-  text-align: center;
 }
 .bad {
   padding-top: 60px;
-  margin-left: 215px;
+
   color: white;
   font-family: Raleway, sans-serif;
   font-weight: bold;
@@ -43,7 +45,7 @@ a {
   display: block;
   font-size: 26px;
   line-height: 31px;
-  margin-left: 215px;
+
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -83,8 +85,16 @@ a {
   text-transform: uppercase;
 
   color: #212121;
+
   margin-top: 30px;
+  margin-left: 24px;
+  margin-right: 24px;
+  text-align: center;
 }
+ul {
+  padding: 0;
+}
+
 .text {
   font-size: 14px;
   line-height: 24px;
@@ -99,7 +109,12 @@ a {
 
   color: #2196f3;
   margin-right: 50px;
+  margin-left: 279px;
   display: block;
+  align-items: center;
+}
+.team {
+  background: #f5f4fa;
 }
 .number {
   font-weight: 500;
@@ -109,8 +124,12 @@ a {
 
   color: #757575;
   display: block;
+  align-items: center;
 }
-
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
 .comment {
   font-size: 16px;
   line-height: 19px;
@@ -129,7 +148,6 @@ a {
 
   color: #ffffff;
   margin-top: 20px;
-  margin-left: 215px;
 }
 
 .flix {
@@ -141,6 +159,11 @@ a {
   letter-spacing: 0.03em;
 
   color: #212121;
+}
+
+.our {
+  display: flex;
+  justify-content: center;
 }
 .box {
   margin-top: 0px;
@@ -155,20 +178,26 @@ a {
 
   color: #ffffff;
 }
+.space {
+  margin-right: 8px;
+}
 .information {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+  margin-left: 24px;
+  margin-right: 24px;
 
   letter-spacing: 0.03em;
 
   color: #757575;
 }
 .cotent {
-  margin-left: 215px;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  margin-right: 0 auto;
+  align-items: center;
 
   letter-spacing: 0.03em;
 
@@ -185,7 +214,8 @@ span {
   font-weight: bold;
   font-size: 18px;
   line-height: 36px;
-
+  margin-right: 24px;
+  margin-left: 24px;
   letter-spacing: 0.06em;
 
   color: #212121;
@@ -196,6 +226,8 @@ span {
   align-items: center;
 }
 .hero {
+  align-items: center;
+
   padding: 0;
   margin: 0;
   list-style: none;
@@ -238,11 +270,27 @@ footer {
 
   color: rgba(255, 255, 255, 0.6);
 }
+.give:nth-child(3n) {
+  margin-right: 0px;
+}
+.photo {
+  margin-right: 30px;
+}
+.photo:last-child {
+  margin-right: 0px;
+}
+.give {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
 .one {
   display: flex;
   margin-right: 30px;
   margin-top: 0;
   margin-bottom: 0px;
+}
+.one:last-child {
+  margin-right: 0px;
 }
 .one:nth-child(3n) .two {
   flex-wrap: wrap;
@@ -252,10 +300,11 @@ footer {
   padding: 0;
   margin-bottom: 0px;
   margin-top: 0px;
-  margin-right: 215px;
-  margin-left: 215px;
+
   display: flex;
   flex-wrap: wrap;
+
+  list-style: none;
 }
 .monky {
   margin-top: 10px;
@@ -301,7 +350,6 @@ footer {
   text-align: center;
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: chocolate;
 }
 .namy {
   margin: 0;
