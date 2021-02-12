@@ -18,8 +18,8 @@ a {
 .dragon {
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  /* padding-top: 94px;
+  padding-bottom: 50px; */
 
   list-style: none;
   display: flex;
@@ -138,6 +138,7 @@ h3 {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0px auto;
 }
 .comment {
   font-size: 16px;
@@ -161,7 +162,7 @@ h3 {
 
 .flix {
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 94px;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
@@ -266,7 +267,6 @@ h3 {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 
   color: #212121;
 }
@@ -322,7 +322,7 @@ footer {
   list-style: none;
 }
 .monky {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -384,4 +384,10 @@ header {
 .five {
   padding-top: 50px;
   margin-bottom: 0px;
+}
+.work {
+  padding-top: 94px;
+}
+.proffesion {
+  margin-top: 94px;
 }
