@@ -174,6 +174,7 @@ h3 {
 .our {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .box {
   margin-top: 0px;
@@ -192,8 +193,9 @@ h3 {
   margin-right: 8px;
 }
 .imgname {
-  margin-top: 20px;
-  margin-right: 20px;
+  /* margin-top: 20px;
+  margin-right: 20px; */
+  padding: 20px 24px;
 }
 .information {
   font-weight: normal;
@@ -380,18 +382,21 @@ header {
   padding-top: 0px;
 } */
 .four {
-  padding-top: 94px;
+  /* padding-top: 94px; */
   align-items: center;
   margin-bottom: 0px;
   margin-top: 0px;
 }
-
+.plan {
+  margin-top: 94px;
+}
 .five {
-  padding-top: 50px;
+  /* padding-top: 50px; */
   margin-bottom: 0px;
 }
 .work {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .proffesion {
   padding-top: 94px;
