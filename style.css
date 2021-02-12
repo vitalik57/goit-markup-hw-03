@@ -196,8 +196,12 @@ h3 {
   /* margin-top: 20px;
   margin-right: 20px; */
   padding: 20px 24px;
+  border-bottom: 1px solid #ececec;
+  border-right: 1px solid #ececec;
+  border-left: 1px solid #ececec;
 }
 .information {
+  margin: 0%;
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
@@ -388,7 +392,7 @@ header {
   margin-top: 0px;
 }
 .plan {
-  margin-top: 94px;
+  padding-top: 94px;
 }
 .five {
   /* padding-top: 50px; */
@@ -400,4 +404,5 @@ header {
 }
 .proffesion {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
