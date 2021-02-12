@@ -312,7 +312,8 @@ footer {
 }
 .two {
   padding: 0;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
+  padding-top: 100px;
   margin-top: -30px;
   margin-left: -30px;
 
