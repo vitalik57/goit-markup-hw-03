@@ -84,7 +84,7 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 
   color: #212121;
 
@@ -193,8 +193,6 @@ h3 {
   margin-bottom: 50px;
 }
 .box {
-  padding-top: 200px;
-  padding-bottom: 280px;
   margin-top: 0px;
   margin-bottom: 30px;
   font-weight: 900;
@@ -411,8 +409,16 @@ header {
   margin-bottom: 0px;
   margin-top: 0px;
 }
+.blake {
+  padding-bottom: 280px;
+  padding-top: 200px;
+}
+.blake {
+  background-color: #2f303a;
+}
 .plan {
   padding-top: 94px;
+  padding-bottom: 280px;
 }
 .five {
   /* padding-top: 50px; */
