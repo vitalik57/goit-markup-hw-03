@@ -26,8 +26,6 @@ a {
   justify-content: center;
 }
 .bad {
-  padding-top: 60px;
-
   color: white;
   font-family: Raleway, sans-serif;
   font-weight: bold;
@@ -170,13 +168,33 @@ h3 {
 
   color: #212121;
 }
+.tel {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
 
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.mailto {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
 .our {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
 .box {
+  padding-top: 200px;
+  padding-bottom: 280px;
   margin-top: 0px;
   margin-bottom: 30px;
   font-weight: 900;
@@ -278,6 +296,8 @@ h3 {
 }
 footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .zoro {
   list-style: none;
@@ -357,7 +377,7 @@ footer {
   border-radius: 4px;
 }
 header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 .three {
   font-family: Roboto, sans-serif;
