@@ -391,6 +391,7 @@ header {
 }
 
 .sanji {
+  /* background-image: url(../goit-markup-hw-03/image/Img20.jpg); */
   text-align: center;
 }
 .jjj {
@@ -412,13 +413,12 @@ header {
 .blake {
   padding-bottom: 280px;
   padding-top: 200px;
-}
-.blake {
+
   background-color: #2f303a;
 }
 .plan {
   padding-top: 94px;
-  padding-bottom: 280px;
+  /* padding-bottom: 280px; */
 }
 .five {
   /* padding-top: 50px; */
@@ -431,4 +431,22 @@ header {
 .proffesion {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.blake {
+  width: 1600px;
+  height: 600px;
+  background-image: url("../goit-markup-hw-03/image/Img20.jpg");
+}
+.monky::before {
+  width: 270px;
+  height: 120px;
+  left: 215px;
+  top: 774px;
+  content: " ";
+  background: #f5f4fa;
+
+  background-image: url("../goit-markup-hw-03/image/img.jpg");
+  display: block;
+  background-size: contain;
+  background-position: center;
 }
