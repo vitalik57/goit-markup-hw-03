@@ -433,8 +433,8 @@ header {
   padding-bottom: 94px;
 }
 .blake {
-  width: 1600px;
-  height: 600px;
+  width: 100%;
+  /* height: 600px; */
   background-image: url("../goit-markup-hw-03/image/Img20.jpg");
 }
 .monky::before {
